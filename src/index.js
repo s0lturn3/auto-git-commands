@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import chalk from 'chalk';
-import { execSync } from 'child_process';
 import inquirer from 'inquirer';
 
 import { printConfiguration, printResult } from './utils/output.js';
@@ -36,7 +35,7 @@ function executeCommand(directories, branchOrTag, action) {
 
 
 async function main() {
-  execSync('clear', { stdio: 'inherit' });
+  console.clear();  // Limpa o console inicialmente
   console.log(chalk.blueBright('\n🚀 Automatic checkout process across multiple Git repositories 🚀\n'));
 
   try {
