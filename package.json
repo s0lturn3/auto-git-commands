@@ -1,0 +1,19 @@
+{
+  "name": "auto-checkout",
+  "version": "1.0.0",
+  "description": "Node.js CLI tool that lets you execute Git operations on several local repositories at once",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "automation",
+    "javascript",
+    "script",
+    "git"
+  ],
+  "author": "P&D - Pesquisa e Desenvolvimento",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.8.2"
+  }
+}
