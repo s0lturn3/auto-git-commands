@@ -36,7 +36,7 @@ function executeCommand(directories, branchOrTag, action) {
 
 
 async function main() {
-  execSync('cls', { stdio: 'inherit' });
+  execSync('clear', { stdio: 'inherit' });
   console.log(chalk.blueBright('\n🚀 Automatic checkout process across multiple Git repositories 🚀\n'));
 
   try {
