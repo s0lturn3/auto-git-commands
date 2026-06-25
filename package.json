@@ -10,6 +10,9 @@
     "script",
     "git"
   ],
+  "bin": {
+    "autogit": "./src/index.js"
+  },
   "author": "P&D - Pesquisa e Desenvolvimento",
   "license": "MIT",
   "dependencies": {
